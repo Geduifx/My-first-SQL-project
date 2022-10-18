@@ -11,19 +11,15 @@ To scrape search results I used Web Scraper - Free Web Scraping Chrome extension
 
 For next project it would be nice to create own Python script to performed customized scraping and get a cleaner data, automate load to SQL.
 
-I analysed data with SQL. Only 4 job titles contained SQL, so I arranged job titles in to 10 categories:
+[I analysed data with SQL.] Only 4 job titles contained SQL, so I arranged job titles in to 10 categories:
+
+[I analysed data with SQL.]: <https://github.com/Geduifx/My-first-SQL-project/blob/main/Queries.sql>
 
 ![](Images/10titles.png)
 
 Then I imported query results to Power BI and visualized them. For next project I would like to setup server level connection between SQL database and Power BI.
 
 ![](Images/10chart.png)
-
-
-
-[List of used SQL queries]
-
-[List of used SQL queries]: <https://github.com/Geduifx/My-first-SQL-project/blob/main/Queries.sql>
 
 Main issues I faced: mix of upper and lower case letters, different wording for same job positions, two languages (EN, LT), different punctuations.
 
