@@ -19,6 +19,10 @@ Then I imported query results to Power BI and visualized them. For next project 
 
 ![](Images/10chart.png)
 
+[List of used SQL queries]
+
+[List of used SQL queries]: <https://github.com/Geduifx/My-first-SQL-project/blob/main/Queries.sql>
+
 Main issues I faced: mix of upper and lower case letters, different wording for same job positions, two languages (EN, LT), different punctuations.
 
 Looks like there are only few positions where main requirement is SQL expertise, but good news is that SQL is a necessary and important supplementary tool in many broad fields.
@@ -28,6 +32,8 @@ I was interested what other tools and skills are used together with SQL, so I lo
 ![](Images/skills_table.png)
 
 ![](Images/skills_chart.png)
+
+
 
 I also checked which job listings where most popular.
 
