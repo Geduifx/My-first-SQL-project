@@ -7,9 +7,9 @@ Since I started learning SQL I was interested how popular it is in job listings:
 3.	Cleaned and analysed data with SQL.
 4.	Used Power BI to visualize results.
 
-To scrape search results I used Web Scraper - Free Web Scraping Chrome extension. Exported results in CSV format. Created PostgresSQL data base using Valentina Studio and imported CSV. Backed up data base with Create dump.
+To scrape search results I used Web Scraper - Free Web Scraping Chrome extension. Exported results as CSV. Created PostgresSQL data base using Valentina Studio and imported CSV. Backed up database with Create dump.
 
-For next project it would be nice to create own Python script to performed customized scraping and get a cleaner data, automate load to SQL.
+For next project it would be nice to create own Python script to performe customized scraping and get a cleaner data, automate load to SQL.
 
 [I analysed data with SQL.] Only 4 job titles contained SQL, so I arranged job titles in to 10 categories:
 
@@ -17,7 +17,9 @@ For next project it would be nice to create own Python script to performed custo
 
 <img src="Images/10titles.png" width="">
 
-Then I imported query results to Power BI and visualized them. For next project I would like to setup server level connection between SQL database and Power BI.
+Then I imported query results to Power BI and visualized them. 
+
+For next project I would like to setup server level connection between SQL database and Power BI.
 
 ![](Images/10chart.png)
 
@@ -30,8 +32,6 @@ I was interested what other tools and skills are used together with SQL, so I lo
 ![](Images/skills_table.png)
 
 ![](Images/skills_chart.png)
-
-
 
 I also checked which job listings where most popular.
 
