@@ -1,6 +1,7 @@
 ## My first SQL project
 
 Since I started learning SQL I was interested how popular it is in job listings:
+
 1.	I searched for SQL keyword in CVbankas.lt page, got 145 listings.
 2.	Scraped results.
 3.	Cleaned and analysed data with SQL.
