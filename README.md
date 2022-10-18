@@ -9,3 +9,4 @@ Since I started learning SQL I was interested how popular it is in job listings:
 To scrape search results I used Web Scraper - Free Web Scraping Chrome extension. For next project it would be nice to create own Python script to performed customized scraping and get a cleaner data, automate load to SQL.
 
 I analysed data with SQL. Only 4 job titles contained SQL, so I arranged job titles in to 10 categories:
+![](Images/10titles.png)
