@@ -19,6 +19,8 @@ Then I imported query results to Power BI and visualized them. For next project 
 
 ![](Images/10chart.png)
 
+
+
 [List of used SQL queries]
 
 [List of used SQL queries]: <https://github.com/Geduifx/My-first-SQL-project/blob/main/Queries.sql>
