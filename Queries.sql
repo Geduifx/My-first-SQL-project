@@ -14,7 +14,11 @@ ORDER BY title;
 --133 records, many titles for same position, but with a bit different wording.
 
 
-/*I wanted to get all unique words with their counts from titles to get a better idea on how to group titles. Using google search “sql get unique words” I found a suitable solution, but once I started to implement it, it turned out that MySQL uses SUBSTRING_INDEX function, while I use PostgreSQL which uses SPLIT_PART. Then using google search “postgresql get unique words” I find a simple solution with REGEXP_SPLIT_TO_TABLE. Lesson learned – always be specific for which exact tool solution is needed 😊  */
+/*I wanted to get all unique words with their counts from titles to get a better idea on how to group titles. 
+Using google search “sql get unique words” I found a suitable solution, but once I started to implement it, 
+it turned out that MySQL uses SUBSTRING_INDEX function, while I use PostgreSQL which uses SPLIT_PART. Then 
+using google search “postgresql get unique words” I find a simple solution with REGEXP_SPLIT_TO_TABLE. 
+Lesson learned – always be specific for which exact tool solution is needed 😊  */
 
 
 -- get all words from titles
