@@ -15,7 +15,7 @@ For next project it would be nice to create own Python script to performed custo
 
 [I analysed data with SQL.]: <https://github.com/Geduifx/My-first-SQL-project/blob/main/Queries.sql>
 
-![](Images/10titles.png)
+<img src="Images/10titles.png" width="">
 
 Then I imported query results to Power BI and visualized them. For next project I would like to setup server level connection between SQL database and Power BI.
 
