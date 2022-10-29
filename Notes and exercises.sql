@@ -1,5 +1,3 @@
-# SQL-AND-Databases
-
 FUNCTIONS, operators, keywords etc.:
 SELECT
 FROM
