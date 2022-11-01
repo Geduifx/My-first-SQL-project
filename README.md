@@ -9,7 +9,7 @@ Since I started learning SQL I was interested how popular it is in job listings:
 
 To scrape search results I used Web Scraper - Free Web Scraping Chrome extension. Exported results as CSV. Created PostgresSQL data base using Valentina Studio and imported CSV. Backed up database with Create dump.
 
-For next project it would be nice to create own Python script to performe customized scraping and get a cleaner data, automate load to SQL database.
+For next project it would be interesting to create own Python script to performe customized scraping and get a cleaner data, automate load to SQL database.
 
 [I analysed data with SQL.] Only 4 job titles contained SQL, so I arranged job titles in to 10 categories:
 
