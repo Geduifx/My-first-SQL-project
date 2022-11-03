@@ -1,15 +1,15 @@
-## My first SQL project
+## SQL job listings
 
-Since I started learning SQL I was interested how popular it is in job listings:
+I was interested how popular SQL is in job listings:
 
-1.	I searched for SQL keyword in CVbankas.lt page, got 145 listings.
+1.	Searched for SQL keyword in CVbankas.lt page, got 145 listings.
 2.	Scraped results.
 3.	Cleaned and analysed data with SQL.
 4.	Used Power BI to visualize results.
 
-To scrape search results I used Web Scraper - Free Web Scraping Chrome extension. Exported results as CSV. Created PostgresSQL data base using Valentina Studio and imported CSV. Backed up database with Create dump.
+To scrape search results used Web Scraper - Free Web Scraping Chrome extension. Exported results as CSV. Created PostgresSQL data base using Valentina Studio and imported CSV. Backed up database with Create dump.
 
-For next project it would be interesting to create own Python script to performe customized scraping and get a cleaner data, automate load to SQL database.
+For next project it would be interesting to create own Python script to perform customized scraping and get a cleaner data, automate load to SQL database.
 
 [I analysed data with SQL.] Only 4 job titles contained SQL, so I arranged job titles in to 10 categories:
 
@@ -17,23 +17,23 @@ For next project it would be interesting to create own Python script to performe
 
 <img src="Images/10titles.png" width="">
 
-Then I imported query results to Power BI and visualized them. 
+Then imported query results to Power BI and visualized them. 
 
-For next project I would like to setup server level connection between SQL database and Power BI.
+For next project it would be interesting to setup server level connection between SQL database and Power BI.
 
 ![](Images/10chart.png)
 
-Main issues I faced: mix of upper and lower case letters, different wording for same job positions, two languages (EN, LT), different punctuations.
+Main issues faced: mix of upper- and lower-case  case letters, different wording for same job positions, two languages (EN, LT), different punctuations.
 
 Looks like there are only few positions where main requirement is SQL expertise, but good news is that SQL is a necessary and important supplementary tool in many broad fields.
 
-I was interested what other tools and skills are used together with SQL, so I looked at scraped job requirements. It was difficult to find out what are common requirements when many job listing have huge requirements lists. So I extracted all words (9566 total, 3069 unique) from requirements lists and summarized most common ones:
+I was interested what other tools and skills are used together with SQL, so looked at scraped job requirements. It was difficult to find out what are common requirements when many job listing have huge requirements lists. So extracted all words (9566 total, 3069 unique) from requirements lists and summarized most common ones:
 
 ![](Images/skills_table.png)
 
 ![](Images/skills_chart.png)
 
-I also checked which job listings where most popular.
+Also checked which job listings where most popular.
 
 ![](Images/popular.png)
 
